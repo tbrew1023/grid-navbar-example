@@ -1,0 +1,29 @@
+/*
+Developer: Trent Brew
+Date: 10/6/17
+Description: navbar styles for mobile
+*/
+
+//-------------------------------FOR MOBILE------------------------------------
+
+.navbar-wrapper-mobile {
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  height: 70px;
+
+  .item {
+    text-align: center;
+    padding: 10px;
+    line-height: 45px;
+  }
+
+  .nav-home {}
+
+  .nav-portfolio {}
+
+  .nav-resume {}
+
+  .nav-blog {}
+}
