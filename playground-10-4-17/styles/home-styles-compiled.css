@@ -42,15 +42,15 @@ Description: modular grid template for navigation bar
   .navbar-wrapper a {
     text-decoration: none; }
   .navbar-wrapper .selected {
-    border-bottom: solid 5px #00BCD4;
-    color: #00BCD4 !important; }
+    border-bottom: solid 5px #00838F;
+    color: #00838F !important; }
   .navbar-wrapper .item {
     color: #616161; }
     .navbar-wrapper .item:hover {
       background-color: #E0E0E0;
-      color: #00BCD4; }
+      color: #00838F; }
 
-.content-example {
+.content-wrapper {
   position: absolute;
   background-color: gray;
   width: 90%;
@@ -97,15 +97,15 @@ Description: Mobile styles for home page
     .navbar-wrapper-mobile a {
       text-decoration: none; }
     .navbar-wrapper-mobile .selected {
-      border-bottom: solid 5px #00BCD4;
-      color: #00BCD4 !important; }
+      border-bottom: solid 5px #00838F;
+      color: #00838F !important; }
     .navbar-wrapper-mobile .item {
       color: #616161; }
       .navbar-wrapper-mobile .item:hover {
         background-color: #E0E0E0;
-        color: #00BCD4; }
+        color: #00838F; }
 
-  .content-example {
+  .content-wrapper {
     position: absolute;
     background-color: gray;
     width: 100%;
