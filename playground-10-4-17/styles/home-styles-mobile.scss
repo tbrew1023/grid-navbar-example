@@ -1,0 +1,58 @@
+/*
+Developer: Trent Brew
+Date: 10/5/17
+Description: Mobile styles for home page
+*/
+
+//---------------------------------FOR MOBILE-----------------------------------
+
+@media only screen and (max-width: 768px) {
+
+  .navbar-wrapper {
+    visibility: hidden;
+  }
+
+  //----------body----------
+
+  body {
+    margin: 0px;
+    font-family: roboto, sans-serif;
+  }
+
+  //----------navbar----------
+
+  /*the only thing needing to be specified for the navbar template are the
+   main and accent colors soecified below*/
+
+  @import 'navbar';
+
+  .navbar-wrapper-mobile {
+    background-color:$Main;
+
+    a {
+      text-decoration: none;
+    }
+
+    .selected {
+      border-bottom: solid 5px $Accent;
+      color: $Accent !important;
+    }
+
+    .item {
+      color: $textColor; //default color for navigation item text
+
+      &:hover {
+        background-color: $MainDark;
+        color: $Accent;
+      }
+    }
+
+  }
+
+  //----------content----------
+
+
+
+
+
+}
