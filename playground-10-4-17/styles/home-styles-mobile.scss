@@ -33,7 +33,7 @@ Description: Mobile styles for home page
     }
 
     .selected {
-      border-bottom: solid 5px $Accent;
+      border-bottom: solid 5px $Accent !important;
       color: $Accent !important;
     }
 
@@ -43,6 +43,7 @@ Description: Mobile styles for home page
       &:hover {
         background-color: $MainDark;
         color: $Accent;
+        border-bottom: solid 5px $MainDark;
       }
     }
 

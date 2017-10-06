@@ -34,7 +34,7 @@ body {
   }
 
   .selected {
-    border-bottom: solid 5px $Accent; //accent color
+    border-bottom: solid 5px $Accent !important; //accent color
     color: $Accent !important; //accent color
   }
 
@@ -44,6 +44,7 @@ body {
     &:hover {
       background-color: $MainDark;
       color: $Accent;
+      border-bottom: solid 5px $MainDark;
     }
   }
 
