@@ -24,7 +24,7 @@ body {
 /*the only thing needing to be specified for the navbar template are the
   main and accent colors soecified below*/
 
-@import 'navbar';
+@import 'template';
 
 .navbar-wrapper {
   background-color:$Main;
@@ -50,18 +50,6 @@ body {
 }
 
 //----------content----------
-
-.content-wrapper {
-  position: absolute;
-  background-color: gray;
-  width: 90%;
-  height: 1200px; //change once content is actually added
-  left: 50%;
-  transform: translate(-50%, 0);
-  top: 140px;
-
-  
-}
 
 
 

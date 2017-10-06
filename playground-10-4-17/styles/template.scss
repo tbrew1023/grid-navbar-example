@@ -1,12 +1,12 @@
 /*
 Developer: Trenton Brew
 Date: 10/4/2017
-Description: modular grid template for navigation bar
+Description: template file includes basic navigation bar and content wrapper
 */
 
 //--------------------------------FOR DESKTOP----------------------------------
 
-//----------nav wrapper----------
+//----------navbar----------
 
 .navbar-wrapper {
   position: fixed;
@@ -34,4 +34,16 @@ Description: modular grid template for navigation bar
   .nav-empty {
       grid-column: span 4;
   }
+}
+
+//----------content wrapper----------
+
+.content-wrapper {
+  position: absolute;
+  background-color: #FFFFFF;
+  width: 90%;
+  height: 1200px; //change once content is actually added
+  left: 50%;
+  transform: translate(-50%, 0);
+  top: 140px;
 }
