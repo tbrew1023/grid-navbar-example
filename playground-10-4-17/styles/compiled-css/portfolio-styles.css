@@ -1,12 +1,5 @@
-/*
-Developer: Trenton Brew
-Date: 10/4/2017
-Description: Homepage
-*/
-/*
-Developer: Trenton Brew
-Date: 10/4/2017
-Description: colors for navbar
+/* auto compile
+Description: Portfolio
 */
 .navbar-wrapper-mobile {
   display: none; }
@@ -15,13 +8,9 @@ body {
   margin: 0px;
   font-family: roboto, sans-serif; }
 
-/*the only thing needing to be specified for the navbar template are the
-  main and accent colors soecified below*/
-/*
-Developer: Trenton Brew
-Date: 10/4/2017
-Description: template file includes basic navigation bar and content wrapper
-*/
+body {
+  background-color: #EEEEEE; }
+
 .navbar-wrapper {
   position: fixed;
   display: grid;
@@ -29,7 +18,7 @@ Description: template file includes basic navigation bar and content wrapper
   width: 100%;
   height: 70px;
   z-index: 1;
-  box-shadow: 0px 1px 22px -3px rgba(0, 0, 0, 0.65); }
+  box-shadow: 0px 1px 22px -3px rgba(0, 0, 0, 0.45); }
   .navbar-wrapper .item {
     text-align: center;
     padding: 10px;
@@ -40,6 +29,7 @@ Description: template file includes basic navigation bar and content wrapper
 .content-wrapper {
   position: absolute;
   background-color: #FFFFFF;
+  padding: 0px;
   width: 90%;
   height: 1200px;
   left: 50%;
@@ -47,24 +37,19 @@ Description: template file includes basic navigation bar and content wrapper
   top: 140px; }
 
 .navbar-wrapper {
-  background-color: #EEEEEE; }
+  background-color: #FFFFFF; }
   .navbar-wrapper a {
     text-decoration: none; }
+    .navbar-wrapper a:hover {
+      background-color: rgba(0, 0, 0, 0.1); }
+      .navbar-wrapper a:hover .item {
+        color: #00838F; }
   .navbar-wrapper .selected {
     border-bottom: solid 5px #00838F !important;
     color: #00838F !important; }
   .navbar-wrapper .item {
     color: #616161; }
-    .navbar-wrapper .item:hover {
-      background-color: #E0E0E0;
-      color: #00838F;
-      border-bottom: solid 5px #E0E0E0; }
 
-/*
-Developer: Trent Brew
-Date: 10/5/17
-Description: Mobile styles for Resume page
-*/
 @media only screen and (max-width: 768px) {
   .navbar-wrapper {
     display: none; }
@@ -75,11 +60,6 @@ Description: Mobile styles for Resume page
 
   /*the only thing needing to be specified for the navbar template are the
    main and accent colors soecified below*/
-  /*
-  Developer: Trent Brew
-  Date: 10/6/17
-  Description: navbar styles for mobile
-  */
   .navbar-wrapper-mobile {
     position: fixed;
     display: grid;
@@ -91,27 +71,29 @@ Description: Mobile styles for Resume page
     .navbar-wrapper-mobile .item {
       text-align: center;
       padding: 10px;
-      line-height: 25px; }
+      line-height: 27px;
+      font-size: 0.8em; }
 
   .content-wrapper {
     position: absolute;
     background-color: #FFFFFF;
+    padding: 0px;
     width: 100%;
     height: 1200px;
-    top: 70px; }
+    top: 50px; }
 
   .navbar-wrapper-mobile {
-    background-color: #EEEEEE; }
+    background-color: #FFFFFF; }
     .navbar-wrapper-mobile a {
       text-decoration: none; }
+      .navbar-wrapper-mobile a:hover {
+        background-color: rgba(0, 0, 0, 0.1); }
+        .navbar-wrapper-mobile a:hover .item {
+          color: #00838F; }
     .navbar-wrapper-mobile .selected {
-      border-bottom: solid 5px #00838F !important;
+      border-bottom: solid 3px #00838F !important;
       color: #00838F !important; }
     .navbar-wrapper-mobile .item {
-      color: #616161; }
-      .navbar-wrapper-mobile .item:hover {
-        background-color: #E0E0E0;
-        color: #00838F;
-        border-bottom: solid 5px #E0E0E0; } }
+      color: #616161; } }
 
-/*# sourceMappingURL=resume-styles-compiled.css.map */
+/*# sourceMappingURL=portfolio-styles.css.map */

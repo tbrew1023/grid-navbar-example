@@ -1,10 +1,7 @@
-/*
-Developer: Trent Brew
-Date: 10/5/17
-Description: Mobile styles for Resume page
-*/
 
 //---------------------------------FOR MOBILE-----------------------------------
+
+@import '../colors';
 
 @media only screen and (max-width: 768px) {
   .navbar-wrapper {
@@ -26,30 +23,33 @@ Description: Mobile styles for Resume page
   @import 'template-mobile';
 
   .navbar-wrapper-mobile {
-    background-color:$Main;
+    background-color: $Main;
 
     a {
       text-decoration: none;
+
+      &:hover {
+        background-color: $MainDark;
+
+        .item {
+          color: $Accent;
+        }
+      }
     }
 
     .selected {
-      border-bottom: solid 5px $Accent !important;
+      border-bottom: solid 3px $Accent !important;
       color: $Accent !important;
     }
 
     .item {
       color: $textColor; //default color for navigation item text
-
-      &:hover {
-        background-color: $MainDark;
-        color: $Accent;
-        border-bottom: solid 5px $MainDark;
-      }
     }
 
   }
 
   //----------content----------
+
 
 
 

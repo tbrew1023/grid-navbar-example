@@ -1,10 +1,5 @@
-/*
-Developer: Trent Brew
-Date: 10/6/17
-Description: navbar styles for mobile
-*/
 
-//-------------------------------FOR MOBILE------------------------------------
+//-----------------------------MOBILE TEMPLATE---------------------------------
 
 //----------navbar----------
 
@@ -20,7 +15,8 @@ Description: navbar styles for mobile
   .item {
     text-align: center;
     padding: 10px;
-    line-height: 25px;
+    line-height: 27px;
+    font-size: 0.8em;
   }
 
   .nav-home {}
@@ -37,7 +33,8 @@ Description: navbar styles for mobile
 .content-wrapper {
   position: absolute;
   background-color: #FFFFFF;
+  padding:0px;
   width: 100%;
   height: 1200px;
-  top: 70px; //navbar height
+  top: 50px; //navbar height
 }

@@ -1,0 +1,47 @@
+@media only screen and (max-width: 768px) {
+  .navbar-wrapper {
+    display: none; }
+
+  body {
+    margin: 0px;
+    font-family: roboto, sans-serif; }
+
+  /*the only thing needing to be specified for the navbar template are the
+   main and accent colors soecified below*/
+  .navbar-wrapper-mobile {
+    position: fixed;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 50px;
+    z-index: 1;
+    box-shadow: 0px 1px 22px -3px rgba(0, 0, 0, 0.65); }
+    .navbar-wrapper-mobile .item {
+      text-align: center;
+      padding: 10px;
+      line-height: 27px;
+      font-size: 0.8em; }
+
+  .content-wrapper {
+    position: absolute;
+    background-color: #FFFFFF;
+    padding: 0px;
+    width: 100%;
+    height: 1200px;
+    top: 50px; }
+
+  .navbar-wrapper-mobile {
+    background-color: #FFFFFF; }
+    .navbar-wrapper-mobile a {
+      text-decoration: none; }
+      .navbar-wrapper-mobile a:hover {
+        background-color: rgba(0, 0, 0, 0.1); }
+        .navbar-wrapper-mobile a:hover .item {
+          color: #00838F; }
+    .navbar-wrapper-mobile .selected {
+      border-bottom: solid 3px #00838F !important;
+      color: #00838F !important; }
+    .navbar-wrapper-mobile .item {
+      color: #616161; } }
+
+/*# sourceMappingURL=resume-styles-mobile.css.map */
