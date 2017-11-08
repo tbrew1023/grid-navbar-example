@@ -1,3 +1,10 @@
+body {
+  margin: 0px;
+  font-family: roboto, sans-serif; }
+
+.navbar-wrapper, .banner {
+  display: none; }
+
 .navbar-wrapper-mobile {
   position: fixed;
   display: grid;
@@ -18,6 +25,6 @@
   padding: 0px;
   width: 100%;
   height: 1200px;
-  top: 50px; }
+  top: 50px !important; }
 
 /*# sourceMappingURL=template-mobile.css.map */

@@ -6,23 +6,20 @@ Description: Portfolio
 
 //--------------------------------FOR DESKTOP----------------------------------
 
-.navbar-wrapper-mobile {
-  display: none;
-}
-
-//----------body----------
-
-body {
-  margin: 0px;
-  font-family: roboto, sans-serif;
-}
-
 //----------navbar----------
 
 //the only thing needing to be specified for the navbar template are the
 //main and accent colors soecified below
 
 @import 'template-desktop';
+
+.banner {
+  background-image: url("http://studentweb.cdm.depaul.edu/~tbrew/personal-projects/grid-nav/res/edited/jumping.jpg");
+  background-position: 0px -600px;
+  background-size: 125%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 .navbar-wrapper {
   background-color: $Main;

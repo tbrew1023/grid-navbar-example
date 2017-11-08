@@ -1,13 +1,13 @@
 @media only screen and (max-width: 768px) {
-  .navbar-wrapper {
-    display: none; }
-
+  /*the only thing needing to be specified for the navbar template are the
+   main and accent colors soecified below*/
   body {
     margin: 0px;
     font-family: roboto, sans-serif; }
 
-  /*the only thing needing to be specified for the navbar template are the
-   main and accent colors soecified below*/
+  .navbar-wrapper, .banner {
+    display: none; }
+
   .navbar-wrapper-mobile {
     position: fixed;
     display: grid;
@@ -28,7 +28,7 @@
     padding: 0px;
     width: 100%;
     height: 1200px;
-    top: 50px; }
+    top: 50px !important; }
 
   .navbar-wrapper-mobile {
     background-color: #FFFFFF; }

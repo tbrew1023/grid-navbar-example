@@ -1,7 +1,18 @@
 
 //-----------------------------MOBILE TEMPLATE---------------------------------
 
+//----------body----------
+
+body {
+  margin: 0px;
+  font-family: roboto, sans-serif;
+}
+
 //----------navbar----------
+
+.navbar-wrapper, .banner {
+  display: none;
+}
 
 .navbar-wrapper-mobile {
   position: fixed;
@@ -36,5 +47,5 @@
   padding:0px;
   width: 100%;
   height: 1200px;
-  top: 50px; //navbar height
+  top: 50px !important; //navbar height
 }
